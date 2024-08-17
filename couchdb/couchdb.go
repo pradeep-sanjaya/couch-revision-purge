@@ -3,12 +3,12 @@ package couchdb
 import (
 	"encoding/json"
 	"bytes"
-    "fmt"
+	"fmt"
 	"io/ioutil"
-    "net/http"
-    "github.com/pradeep-sanjaya/couch-revision-purge/logger"
-    "net"
-    "time"
+	"net/http"
+	"github.com/pradeep-sanjaya/couch-revision-purge/logger"
+	"net"
+	"time"
 	"strings"
 )
 
