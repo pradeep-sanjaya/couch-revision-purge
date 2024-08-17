@@ -1,0 +1,6 @@
+{
+    "logfile": "scan.log",
+    "cidr": "127.0.0.1/24",
+    "couchdbPort": "5984",
+    "apiEndpoint": "http://example.com/api/couchdb-instances"
+}

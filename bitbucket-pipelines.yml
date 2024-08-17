@@ -1,0 +1,15 @@
+image: golang:1.18
+
+pipelines:
+  default:
+    - step:
+        name: Build and Test
+        caches:
+          - go
+        script:
+          - go version
+          - go mod tidy
+          - go test ./...
+          - go build -o couch-revision-purge
+        artifacts:
+          - couch-revision-purge
