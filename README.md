@@ -13,7 +13,7 @@ Couch Revision Purge is a tool designed to scan a network for running CouchDB in
 To install the project, clone the repository and build the project using Go:
 
 ```bash
-git clone https://github.com/yourusername/couch-revision-purge.git
+git clone https://github.com/pradeep-sanjaya/couch-revision-purge.git
 cd couch-revision-purge
 go build -o couch-revision-purge
 ```
